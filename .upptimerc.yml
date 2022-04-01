@@ -8,3 +8,16 @@ assignees: # Users to assign downtime issues (optional)
 status-website: # Status website (optional)
   cname: https://mam-portal-experimental.web.app/ # Custom domain CNAME
   name: Made and Modern # Status website title
+
+// get projects Endpoint
+
+- name: GetProjects API endpoint with data
+  method: GET
+  url: https://us-central1-mam-portal-experimental.cloudfunctions.net/project
+  headers:
+    - "Content-Type: application/json"
+  body: '{
+    "email": "mamtest2@gmail.com",
+    "password": "password",
+    "returnSecureToken": true
+}'
