@@ -15,6 +15,7 @@ status-website: # Status website (optional)
   method: GET
   url: https://us-central1-mam-portal-experimental.cloudfunctions.net/project
   headers:
+    - "Authorization: Bearer $SECRET_SITE_2"
     - "Content-Type: application/json"
   body: '{
     "email": "mamtest2@gmail.com",
