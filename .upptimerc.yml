@@ -3,6 +3,14 @@ repo: upptime # GitHub repository name
 sites: # List of endpoints to track
   - name: Made and Modern Portal
     url: https://mam-portal-experimental.web.app/
+ 
+ - name: API endpoint with data
+  method: POST
+  url: https://mam-portal-prod.web.app//token/auth_token
+  headers:
+    - "Content-Type: application/json"
+  body: '{ "email": "anupama.gupta@madeandmodern.com" }{ "password": "Anupama@2021" }'
+  
 assignees: # Users to assign downtime issues (optional)
   - anu99gupta
 status-website: # Status website (optional)
