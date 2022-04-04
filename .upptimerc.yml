@@ -4,7 +4,7 @@ sites: # List of endpoints to track
   - name: Made and Modern Portal
     url: https://mam-portal-experimental.web.app/
  
- - name: API endpoint with data
+ - name: M-Mportal/api/made-and-modern-portal/
   method: POST
   url: https://mam-portal-prod.web.app//token/auth_token
   headers:
