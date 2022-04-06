@@ -5,7 +5,7 @@ sites: # List of endpoints to track
     url: https://mam-portal-experimental.web.app/
   - name: https://mam-portal-experimental.web.app/login
     method: POST
-    url: https://us-central1-mam-portal-experimental.cloudfunctions.net/token/auth_token
+    url: https://mam-portal-experimental.web.app/
     headers:
     - "Content-Type: application/json"
     body: '{ "email": "anupama@madeandmodern.com" }{ "password": "Anupama@2021" }'
