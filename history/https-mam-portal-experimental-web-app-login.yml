@@ -1,7 +1,7 @@
-url: https://mam-portal-prod.web.app//token/auth_token
-status: up
-code: 200
-responseTime: 177
-lastUpdated: 2022-04-06T06:18:56.553Z
+url: https://us-central1-mam-portal-experimental.cloudfunctions.net/token/auth_token
+status: down
+code: 400
+responseTime: 1858
+lastUpdated: 2022-04-06T06:28:56.397Z
 startTime: Mon Apr 04 2022 10:28:04 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
