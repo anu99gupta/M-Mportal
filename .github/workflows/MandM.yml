@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name:MadeandModern Api CI
+name:MandM CI
 
 # Controls when the workflow will run
 on:
