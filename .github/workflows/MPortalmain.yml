@@ -44,7 +44,7 @@ jobs:
     # Run the M-Mportal
       - name: Run M-Mportal
         run: |
-         newman run .M-Mportal/GetProjectEnv.postman_environment.json -e .M-Mportal/GetProjectEnv.postman_environment.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
+         newman run .M-Mportal/New Collection.postman_collection.json -e .M-Mportal/GetProjectEnv.postman_environment.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
     # Upload the contents of Test Results directory to workspace
       - name: Output the run Details
         uses: actions/upload-artifact@v2
