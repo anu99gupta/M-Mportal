@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 102,
-    "timeDay": 81,
-    "timeWeek": 102,
-    "timeMonth": 102,
-    "timeYear": 102,
+    "time": 100,
+    "timeDay": 78,
+    "timeWeek": 100,
+    "timeMonth": 100,
+    "timeYear": 100,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://favicons.githubusercontent.com/mam-portal-experimental.web.app",
     "slug": "https-mam-portal-experimental-web-app-login",
     "status": "up",
-    "uptime": "90.54%",
+    "uptime": "92.60%",
     "uptimeDay": "80.83%",
-    "uptimeWeek": "90.54%",
-    "uptimeMonth": "90.54%",
-    "uptimeYear": "90.54%",
-    "time": 434,
-    "timeDay": 534,
-    "timeWeek": 434,
-    "timeMonth": 434,
-    "timeYear": 434,
+    "uptimeWeek": "92.60%",
+    "uptimeMonth": "92.60%",
+    "uptimeYear": "92.60%",
+    "time": 399,
+    "timeDay": 511,
+    "timeWeek": 399,
+    "timeMonth": 399,
+    "timeYear": 399,
     "dailyMinutesDown": {
       "2022-04-06": 276
     }
@@ -43,18 +43,19 @@
     "icon": "https://favicons.githubusercontent.com/us-central1-mam-portal-experimental.cloudfunctions.net",
     "slug": "https-mam-portal-experimental-web-app-projects",
     "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.01%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 59,
-    "timeDay": 59,
-    "timeWeek": 59,
-    "timeMonth": 59,
-    "timeYear": 59,
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 68,
+    "timeDay": 68,
+    "timeWeek": 68,
+    "timeMonth": 68,
+    "timeYear": 68,
     "dailyMinutesDown": {
-      "2022-04-06": 269
+      "2022-04-07": 37,
+      "2022-04-06": 1043
     }
   }
 ]
