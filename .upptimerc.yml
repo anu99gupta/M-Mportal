@@ -10,14 +10,7 @@ sites: # List of endpoints to track
     - "Content-Type: application/json"
     body: '{ "email": "anupama@madeandmodern.com" }{ "password": "Anupama@2021" }'
     
-  - name: https://mam-portal-experimental.web.app/projects
-    method: POST
-    url: https://us-central1-mam-portal-experimental.cloudfunctions.net/project
-    headers:
-    - "Content-Type: application/json"
-    body: '{ "email": "anupama@madeandmodern.com" }{ "password": "Anupama@2021" }'
-assignees: # Users to assign downtime issues (optional)
-  - anu99gupta
+
 status-website: # Status website (optional)
   cname: https://mam-portal-experimental.web.app/ # Custom domain CNAME
   name: Made and Modern # Status website title
